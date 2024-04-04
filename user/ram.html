@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HI-TECH | DASHBOARD</title>    
+        <link rel="stylesheet" href="style.css" />
+        <script src="store.js" async></script>
+        <script src="https://kit.fontawesome.com/df46d211e6.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="img/hand.ico" type="image/x-icon">
+</head>
+    </head>
+    <body>
+        <section id="header">
+        <a href="main.html"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="top products.html">Top Products</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about us.html">About</a></li>
+                <li><a href="login.php">Login <i class="fa-regular fa-user"></i></a></li>
+                <div class="box"><a class="button" href="#popup1"><li id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></li></a>
+            </ul>
+        </div>
+    </section>
+
+    <main>
+<div class="categories">
+    <a href="gpu.html"><button class="button">GPU</button></a>
+    <a href="hdd.html"><button class="button">HDD</button></a>
+    <a href="keyboard.html"><button class="button">Keyboard</button></a>
+    <a href="mouse.html"><button class="button">Mouse</button></a>
+    <a href="psu.html"><button class="button">Power Supply</button></a>
+    <a href="processor.html"><button class="button">Processor</button></a>
+    <a href="ram.html"><button class="button">RAM</button></a>
+    <a href="ssd.html"><button class="button">SSD</button></a>
+</div>
+</main>
+<!---               
+<div class="box">
+    <a class="button" href="#popup1"><li id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></li></a>
+</div>-->
+<div id="popup1" class="overlay">
+    <div class="popup">
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </div> 
+</div>  
+            
+
+        <section class="container content-section">
+            <h2 class="section-header"></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/ram1.jpg">
+                    <span class="shop-item-title">HyperX Fury DDR4</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 5000.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/ram2.jpg">
+                    <span class="shop-item-title">HyperX Fury DDR3</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 1455.00</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/ram3.jpg">
+                    <span class="shop-item-title">Corsair Vengeance 32GB DDR4 3200Mhz</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 4500.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/ram4.jpg">
+                    <span class="shop-item-title">HyperX Savage DDR3</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 1500.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/ram5.jpg">
+                    <span class="shop-item-title">HyperX Fury DDR3 Blue 1866MHz 8GB</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 1,650.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/ram6.jpg">
+                    <span class="shop-item-title">G.SKILL Trident Z Neo (for AMD Ryzen)16GB (2 x 8GB) 3600MHz 288-Pin RGB DDR4 SDRAM Desktop Memory (F4-3600C18D-16GTZN)</span>
+                    <span class="shop-item-title"></span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 5,280.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/ram7.jpg">
+                    <span class="shop-item-title">G.SKILL Ripjaws V Series 16GB (2x8GB) DDR4 3200MHz CL16 SDRAM Desktop Memory - F4-3200C16D-16GVKB</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 3391.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/ram8.jpg">
+                    <span class="shop-item-title">Crucial Ballistix RGB 16GB Kit (2 x 8GB) DDR4-3200 Desktop Gaming Memory Black color</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 5,500.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </body>
+</html>

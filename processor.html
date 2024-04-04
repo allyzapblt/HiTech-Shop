@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HI-TECH | DASHBOARD</title>    
+        <link rel="stylesheet" href="style.css" />
+        <script src="store.js" async></script>
+        <script src="https://kit.fontawesome.com/df46d211e6.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="img/hand.ico" type="image/x-icon">
+</head>
+    </head>
+    <body>
+        <section id="header">
+        <a href="main.html"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="top products.html">Top Products</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about us.html">About</a></li>
+                <li><a href="login.html">Login <i class="fa-regular fa-user"></i></a></li>
+                <div class="box"><a class="button" href="#popup1"><li id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></li></a>
+            </ul>
+        </div>
+    </section>
+
+    <main>
+<div class="categories">
+    <a href="gpu.html"><button class="button">GPU</button></a>
+    <a href="hdd.html"><button class="button">HDD</button></a>
+    <a href="keyboard.html"><button class="button">Keyboard</button></a>
+    <a href="mouse.html"><button class="button">Mouse</button></a>
+    <a href="psu.html"><button class="button">Power Supply</button></a>
+    <a href="processor.html"><button class="button">Processor</button></a>
+    <a href="ram.html"><button class="button">RAM</button></a>
+    <a href="ssd.html"><button class="button">SSD</button></a>
+</div>
+</main>
+<!---               
+<div class="box">
+    <a class="button" href="#popup1"><li id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></li></a>
+</div>-->
+<div id="popup1" class="overlay">
+    <div class="popup">
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </div> 
+</div>  
+            
+
+        <section class="container content-section">
+            <h2 class="section-header"></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro1.jpg">
+                    <span class="shop-item-title">Intel Core i7</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 8580.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro2.jpg">
+                    <span class="shop-item-title">Intel Core i5-9400F</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 5165.00</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro3.jpg">
+                    <span class="shop-item-title">AMD Ryzen 5 3600 Processor</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 5000.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro4.jpg">
+                    <span class="shop-item-title">AMD A8-7600</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 3400.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro5.jpg">
+                    <span class="shop-item-title">Intel Pentium G4560</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 3599.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro6.jpg">
+                    <span class="shop-item-title">AMD Athlon X4 860K</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 1980.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro7.jpg">
+                    <span class="shop-item-title">Intel Core i9 12900KF 16C/24T 30mb 125W LGA1700, Box</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 30120.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro8.jpg">
+                    <span class="shop-item-title">Intel Core i7-8700K</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 29520.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro13.webp">
+                    <span class="shop-item-title">Intel Core I9-13900 Processor (Raptorlake, 36MB, 24 Cores, 32 Threads up to 5.6GHz)</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 38150.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro9.webp">
+                    <span class="shop-item-title">Intel Core I7-13700 Processor (Raptorlake, 30MB, 16 Cores, 24 Threads up to 5.2GHz)</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 25950.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro11.webp">
+                    <span class="shop-item-title">INTEL PENTIUM GOLD G6405 (4.1GHZ) PROCESSOR</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 4450.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/products/pro12.webp">
+                    <span class="shop-item-title">INTEL PENTIUM GOLD G7400 (3.7GHZ) PROCESSOR</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₱ 59000.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </body>
+</html>
